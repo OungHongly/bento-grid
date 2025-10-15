@@ -129,7 +129,7 @@ span {
   font-size: var(--text-sm);
 }
 .container {
-  max-width: 860px;
+  max-width: 1000px;
   min-height: 100vh;
   /* width 90% so when browser shrink below 1200px the width of the container will be 90% of the web page and make space each side */
   width: 90%;
@@ -144,7 +144,7 @@ span {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 180px 90px 90px 180px;
+  grid-template-rows: 280px 60px 140px 200px;
   gap: var(--space-ml);
 }
 .grid-item1 {
