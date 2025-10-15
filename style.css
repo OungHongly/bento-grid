@@ -137,9 +137,11 @@ span {
   display: flex;
   align-items: center;
 }
+.corner-8 {
+  border-radius: var(--space-sm);
+}
 /* Build bento layout */
 .grid-container {
-  background-color: lightblue;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 180px 90px 90px 180px;
